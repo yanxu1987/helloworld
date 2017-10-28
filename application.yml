@@ -1,11 +1,11 @@
 #mongodb配置
 mongodb:
   primary:
-    host: 10.144.15.206
+    host: 192.168.239.151
     port: 27017
     username: dnzl
     password: dnzl
-    database: dnzl
+    database: test
     #与数据库建立连接的超时时间20mins 20*60*1000
     maxTimeOut: 1200000
     #数据库可以建立的最大连接数
